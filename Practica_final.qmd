@@ -38,7 +38,7 @@ Convierte en factor la columna tipo, respetando las etiquetas:
 
 ```{r}
 df_seeds$tipo <- factor(df_seeds$tipo, labels = c('Kama', 'Rosa', 'Canadian'))
-df_seeds$tipo #Vemos que los numeros ahora corresponden a las etiquetas
+df_seeds$tipo #Vemos que los números ahora corresponden a las etiquetas
 summary(df_seeds$tipo) #Comprobamos que es factor
 df_seeds #Como queda el dataframe
 ```
